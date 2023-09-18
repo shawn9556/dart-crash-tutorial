@@ -51,7 +51,7 @@ void testCanonicalizedMap() {
       // return key.length;
       return key
           .split('')
-          .first; // you can determine the uniqueness of key, not by the hashValue or Equality
+          .first; // you can determine the uniqueness of key, not by the hashValue or Equality. Address overwrote Age b/c both start with 'A'
     },
   );
   print(canonMap);

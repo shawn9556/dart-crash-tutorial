@@ -32,5 +32,5 @@ class Person {
   const Person({
     required this.name,
     List<Person>? siblings,
-  }) : _siblings = siblings;
+  }) : _siblings = siblings; // our siblings is the same as the siblings that we pass in here
 }

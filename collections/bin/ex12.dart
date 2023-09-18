@@ -36,8 +36,11 @@ void addToDictionaryWrong() {
     'age': 20,
     'height': 180,
   };
-  // final result = info;
-  // result.addAll({'weight': 80});
+  try {final result = info;
+  result.addAll({'weight': 80});
+  } catch (e) {
+    print(e);
+  }
   final result = {...info}..addAll({'weight': 80});
   print(result);
 }

@@ -47,7 +47,7 @@ void main(List<String> args) {
   }
   print('-------------------------');
 
-  /// *** Mapping : going through a list converting them to another value of same type or different type ///
+  /// Mapping : going through a list converting them to another value of same type or different type ///***
   ['John', 'Jane', 'Mary', 'Bob'].map((str) => str.length).forEach(print);
   ['John', 'Jane', 'Mary', 'Bob']
       .map((str) => str.toUpperCase())
